@@ -47,88 +47,88 @@
     "welcome": "Üdvözöljük"
   },
   "button": {
-    "reverse_share_invite": "Create a reverse share request",
-    "reverse_share_invite_send": "Send Request",
+    "reverse_share_invite": "Fordított megosztási kérés létrehozása",
+    "reverse_share_invite_send": "Kérés küldése",
     "share": {
-      "password_protect": "Password protect"
+      "password_protect": "Jelszóval védett"
     }
   },
-  "confirm_delete_user": "Are you sure you want to delete this user?",
+  "confirm_delete_user": "Biztosan törölni szeretné ezt a felhasználót?",
   "download": {
     "files": "{value, plural, one {Download # file} other {Download {value} files}}"
   },
   "email": "Email",
-  "full_name": "Full Name",
+  "full_name": "Teljes név",
   "guest": {
-    "upload_success": "Upload Successful!",
-    "upload_success_message": "The person who requested these files will receive an email with a download link."
+    "upload_success": "Feltöltés sikeres!",
+    "upload_success_message": "A fájlokat kérő személy e-mailt kap egy letöltési linkkel."
   },
   "invite": {
     "labels": {
-      "message": "Message to Recipient"
+      "message": "Üzenet a címzettnek"
     },
-    "message": "Message (optional)"
+    "message": "Üzenet (opcionális)"
   },
   "limit": "Limit",
   "message": {
-    "from": "Message from {name}"
+    "from": "Üzenet tőle: {name}"
   },
-  "processing_uploaded_files": "Processing uploaded files",
+  "processing_uploaded_files": "Feltöltött fájlok feldolgozása",
   "reverse_invite_send": {
-    "error": "Unable to send reverse share invite",
-    "success": "Reverse share invite sent!"
+    "error": "Nem sikerült elküldeni a fordított megosztási meghívót",
+    "success": "Fordított megosztási meghívó sikeresen elküldve!"
   },
   "settings": {
     "account": {
-      "change_password": "Change my password",
+      "change_password": "Jelszavam megváltoztatása",
       "create_link": "Link",
-      "email": "My Email Address",
-      "linked_accounts_description": "Link your account with an external provider for easier sign-in. After linking, you can log in directly by selecting the provider's button on the login screen.",
-      "myProfile_description": "Update your email address or change your name. You can change you password by clicking the \"Change my password\" button and following the prompts.",
-      "name": "My Full Name",
-      "unlink": "Unlink"
+      "email": "E-mail címem",
+      "linked_accounts_description": "Fiókja összekapcsolása külső szolgáltatóval az egyszerűbb bejelentkezés érdekében. Az összekapcsolás után közvetlenül bejelentkezhet a szolgáltató gombjának kiválasztásával a bejelentkezési képernyőn.",
+      "myProfile_description": "E-mail címének frissítése vagy nevének megváltoztatása. Jelszavát a \"Jelszavam megváltoztatása\" gombra kattintva és az utasításokat követve módosíthatja.",
+      "name": "Teljes nevem",
+      "unlink": "Leválasztás"
     },
-    "authProvidersSavedSuccessfully": "Auth providers saved successfully",
+    "authProvidersSavedSuccessfully": "Hitelesítési szolgáltatók sikeresen mentve",
     "branding": {
-      "background_images": "Background Images",
-      "background_images_description": "Upload custom background images to replace Unsplash defaults. Images rotate randomly at the interval you set.",
-      "background_slideshow_speed": "Image Change Interval",
-      "background_slideshow_speed_1_day": "One day",
-      "background_slideshow_speed_1_hour": "1 Hour",
-      "background_slideshow_speed_2_hours": "2 Hours",
-      "background_slideshow_speed_3_minutes": "3 Minutes",
-      "background_slideshow_speed_5_minutes": "5 Minutes",
-      "background_slideshow_speed_description": "Change how often the background image randomly changes (this only has an effect if you have multiple background images). Set to 0 to disable the slideshow and show a random image on each page fresh instead.",
-      "background_slideshow_speed_off": "Disable",
-      "delete": "Delete",
-      "delete_theme": "Delete Theme",
-      "delete_theme_description": "Delete the selected theme. This will remove it from the list of themes and you will no longer be able to use it. It is not possible to delete the active theme or bundled themes.",
-      "download": "Download",
-      "download_theme": "Download Theme",
-      "download_theme_description": "Download the selected theme as a JSON file. This can be used to create a new theme or modify an existing one.",
-      "in_pixels": "In pixels",
-      "in_seconds": "seconds",
-      "install_custom_theme": "Install a Custom Theme\n",
-      "install_custom_theme_description": "Install a custom theme from a JSON file.\n\nThis can be a theme you have modified or created yourself or one you have downloaded.",
-      "install_custom_theme_description_2": "If you download a theme from the web, please ensure you trust the source and have checked the theme for malicious code before installing.",
-      "install_theme": "Install Theme",
-      "logo": "Logo",
-      "logo_description": "Display your company logo in PNG format in the top left corner. Set your desired width in pixels - height will adjust automatically to maintain aspect ratio. Use a source image at least as wide as your display width to ensure quality.",
-      "logo_image": "Logo Image",
-      "logo_width": "Logo Width",
-      "other_ui_settings": "Other",
-      "select_theme": "Select Theme",
-      "select_theme_description": "Select from a range of pre-made themes or one one that you have installed.",
-      "settings_saved": "Branding settings saved successfully",
-      "show_powered_by": "Show Powered By Erugo",
-      "show_powered_by_description": "Show or hide the \"Powered by Erugo\" text on the bottom of the page. This text allows Erugo to be discovered by users and helps us to grow, however, you can hide it if you wish.\n",
-      "theme": "Themes",
-      "theme_description": "Select from a range of pre-made themes or one that you have installed.",
-      "theme_file": "Theme File",
-      "theme_name": "Theme Name",
-      "upload_background_image": "Upload Background Image",
-      "use_my_backgrounds": "Use My Backgrounds",
-      "use_my_backgrounds_description": "Use the backgrounds you have uploaded. If not checked, Unsplash backgrounds will be used."
+      "background_images": "Háttérképek",
+      "background_images_description": "Egyedi háttérképek feltöltése az Unsplash alapértelmezett képeinek lecseréléséhez. A képek véletlenszerűen forognak beállított időközönként.",
+      "background_slideshow_speed": "Képváltási intervallum",
+      "background_slideshow_speed_1_day": "Egy nap",
+      "background_slideshow_speed_1_hour": "1 óra",
+      "background_slideshow_speed_2_hours": "2 óra",
+      "background_slideshow_speed_3_minutes": "3 perc",
+      "background_slideshow_speed_5_minutes": "5 perc",
+      "background_slideshow_speed_description": "Változtassa meg, milyen gyakran váltakozik véletlenszerűen a háttérkép (ez csak akkor van hatással, ha több háttérképe van). Állítsa 0-ra a diavetítés kikapcsolásához, és így minden oldalon friss, véletlenszerű képet jelenít majd meg helyette.",
+      "background_slideshow_speed_off": "Kikapcsolás",
+      "delete": "Törlés",
+      "delete_theme": "Téma törlése",
+      "delete_theme_description": "A kiválasztott téma törlése. Ez eltávolítja a témák listájáról, és többé nem fogja tudni használni. Aktív téma vagy a beépített témák törlése nem lehetséges.",
+      "download": "Letöltés",
+      "download_theme": "Téma letöltése",
+      "download_theme_description": "A kiválasztott téma letöltése JSON fájlként. Ez felhasználható új téma létrehozására vagy meglévő téma módosítására.",
+      "in_pixels": "Pixelben",
+      "in_seconds": "másodpercek",
+      "install_custom_theme": "Egyéni téma telepítése\n",
+      "install_custom_theme_description": "Egyedi téma telepítése JSON fájlból.\n\nEz lehet egy Ön által módosított vagy létrehozott téma, vagy egy letöltött téma.",
+      "install_custom_theme_description_2": "Ha letölt egy témát, győződjön meg arról, hogy megbízik a forrásban, és ellenőrizte a témát rosszindulatú kódok szempontjából, mielőtt telepítené.",
+      "install_theme": "Téma telepítése",
+      "logo": "Logó",
+      "logo_description": "Cége logójának megjelenítése PNG formátumban a bal felső sarokban. Állítsa be a kívánt szélességet pixelben – a magasság automatikusan igazodik az arány megtartásához. Használjon olyan forrásképet, amely legalább olyan széles, mint a kijelző szélessége a minőség biztosításához.",
+      "logo_image": "Logó kép",
+      "logo_width": "Logó szélessége",
+      "other_ui_settings": "Egyéb",
+      "select_theme": "Téma kiválasztása",
+      "select_theme_description": "Válasszon a számos előre elkészített téma vagy az Ön által telepített téma közül.",
+      "settings_saved": "Branding beállítások sikeresen mentve",
+      "show_powered_by": "„Powered by Erugo” megjelenítése",
+      "show_powered_by_description": "A \"Powered by Erugo\" szöveg megjelenítése vagy elrejtése az oldal alján. Ez a szöveg lehetővé teszi, hogy az Erugo-t felfedezzék a felhasználók, és segít nekünk növekedni, azonban, ha szeretné, elrejtheti.\n",
+      "theme": "Témák",
+      "theme_description": "Válasszon a számos előre elkészített téma vagy az Ön által telepített téma közül.",
+      "theme_file": "Témafájl",
+      "theme_name": "Téma neve",
+      "upload_background_image": "Háttérkép feltöltése",
+      "use_my_backgrounds": "Saját hátterek használata",
+      "use_my_backgrounds_description": "Használja az Ön által feltöltött háttereket. Ha nincs bejelölve, az Unsplash hátterek kerülnek felhasználásra."
     },
     "button": {
       "branding": {
