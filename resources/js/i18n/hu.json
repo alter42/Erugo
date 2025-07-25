@@ -6,17 +6,17 @@
   "No files added yet": "Nincs még fájl hozzáadva",
   "No recipients": "Nincs címzett",
   "Powered by": "Powered by",
-  "Reverse Share": "Reverse Share",
+  "Reverse Share": "Fordított megosztás",
   "Share Name": "Megosztás neve",
   "Share URL": "Megosztás linkje",
   "We'll provide you with a link instead": {
-    "": "We'll provide you with a link instead"
+    "": "Ehelyett egy linket biztosítunk Önnek"
   },
   "auth": {
     "back_to_login": "Vissza a bejelentkezéshez",
     "confirm_end_guest_session": "Biztosan be szeretné fejezni ezt a munkamenetet? Mivel Ön vendégfelhasználó, a munkamenet befejezése után nem tölthet fel további fájlokat.",
     "confirm_password": "Jelszó megerősítése",
-    "email": "Email",
+    "email": "E-mail",
     "end_guest_session": "Vendég munkamenet befejezése",
     "failed_to_accept_invite": "Ez a meghívó kód érvénytelen. Lehet, hogy lejárt, már felhasználták, vagy a feladó visszavonta.",
     "failed_to_reset_password": "Nem sikerült a jelszó visszaállítása",
@@ -55,9 +55,9 @@
   },
   "confirm_delete_user": "Biztosan törölni szeretné ezt a felhasználót?",
   "download": {
-    "files": "{value, plural, one {Download # file} other {Download {value} files}}"
+    "files": "{value, plural, one {# fájl letöltése} other {{value} fájl letöltése}}"
   },
-  "email": "Email",
+  "email": "E-mail",
   "full_name": "Teljes név",
   "guest": {
     "upload_success": "Feltöltés sikeres!",
@@ -119,7 +119,7 @@
       "other_ui_settings": "Egyéb",
       "select_theme": "Téma kiválasztása",
       "select_theme_description": "Válasszon a számos előre elkészített téma vagy az Ön által telepített téma közül.",
-      "settings_saved": "Branding beállítások sikeresen mentve",
+      "settings_saved": "Arculat/Branding beállítások sikeresen mentve",
       "show_powered_by": "„Powered by Erugo” megjelenítése",
       "show_powered_by_description": "A \"Powered by Erugo\" szöveg megjelenítése vagy elrejtése az oldal alján. Ez a szöveg lehetővé teszi, hogy az Erugo-t felfedezzék a felhasználók, és segít nekünk növekedni, azonban, ha szeretné, elrejtheti.\n",
       "theme": "Témák",
@@ -132,330 +132,330 @@
     },
     "button": {
       "branding": {
-        "save": "Save Branding Settings"
+        "save": "Arculati/Branding beállítások mentése"
       },
       "emailTemplates": {
-        "save": "Save Email Templates"
+        "save": "E-mail sablonok mentése"
       },
       "myProfile": {
-        "save": "Save profile changes"
+        "save": "Profilváltoztatások mentése"
       },
       "myShares": {
-        "create": "Create Share",
-        "pruneExpired": "Delete expired shares"
+        "create": "Megosztás létrehozása",
+        "pruneExpired": "Lejárt megosztások törlése"
       },
       "system": {
-        "save": "Save System Settings"
+        "save": "Rendszerbeállítások mentése"
       },
       "users": {
-        "add": "Add User"
+        "add": "Felhasználó hozzáadása"
       }
     },
-    "close": "Close",
+    "close": "Bezárás",
     "confirm": {
-      "pruneExpiredShares": "Are you sure you want to delete your expired shares? This cannot be undone."
+      "pruneExpiredShares": "Biztosan törölni szeretné a lejárt megosztásokat? Ez a művelet nem vonható vissza."
     },
     "description": {
-      "branding": "Customise the UI of your Erugo instance and add your own branding.",
-      "emailTemplates": "Manage email templates",
-      "myProfile": "Manage your account.",
-      "myShares": "Manage Your Shares.",
-      "system": "Manage the behaviour of your Erugo instance.",
-      "users": "Manage Your Users."
+      "branding": "Az Erugo példány felhasználói felületének testreszabása és saját márkajelzés/branding hozzáadása.",
+      "emailTemplates": "E-mail sablonok kezelése",
+      "myProfile": "Fiókja kezelése.",
+      "myShares": "Megosztásainak kezelése.",
+      "system": "Az Erugo példány viselkedésének kezelése.",
+      "users": "Felhasználók kezelése."
     },
     "emailTemplates": {
-      "accountCreated": "Account Created",
-      "accountCreatedDescription": "Sent to new users when a administrator creates their account. Contains a link that allows the user to set their password.",
-      "baseTemplate": "Base Template",
-      "baseTemplateDescription": "Controls the base template from which all other templates inherit.",
-      "error": "Failed to load email templates",
-      "error_loading_templates": "Failed to load templates",
-      "error_saving_templates": "Failed to save templates",
-      "passwordReset": "Password Reset",
+      "accountCreated": "Fiók létrehozva",
+      "accountCreatedDescription": "Új felhasználóknak küldve, amikor egy rendszergazda létrehozza a fiókjukat. Tartalmaz egy linket, amely lehetővé teszi a felhasználó számára a jelszó beállítását.",
+      "baseTemplate": "Alapsablon",
+      "baseTemplateDescription": "Szabályozza az alapsablont, amelyből az összes többi sablon öröklődik.",
+      "error": "Nem sikerült betölteni az e-mail sablonokat",
+      "error_loading_templates": "Nem sikerült betölteni a sablonokat",
+      "error_saving_templates": "Nem sikerült menteni a sablonokat",
+      "passwordReset": "Jelszó visszaállítása",
       "sections": {
-        "action_text": "Action button text",
-        "action_url": "Action URL",
-        "content": "Message content",
-        "fallbackText": "Fallback link description text",
-        "fallbackTextDescription": "For email clients that cannot properly display action buttons, we include a fallback link at the bottom of the email. Use this option to customize the text that appears above this fallback link, helping recipients understand its purpose.",
-        "header": "Header content",
-        "subject": "Subject"
+        "action_text": "Művelet gomb szövege",
+        "action_url": "Művelet URL",
+        "content": "Üzenet tartalma",
+        "fallbackText": "Tartalék link leírása",
+        "fallbackTextDescription": "Azoknak az e-mail klienseknek, amelyek nem tudják megfelelően megjeleníteni a műveleti gombokat, egy tartalék linket mellékelünk az e-mail alján. Ezzel az opcióval testreszabhatja a tartalék link feletti szöveget, segítve a címzetteket a céljának megértésében.",
+        "header": "Fejléc tartalma",
+        "subject": "Tárgy"
       },
-      "success": "Templates saved successfully"
+      "success": "Sablonok sikeresen mentve"
     },
     "error": {
-      "pruneExpiredShares": "Failed to schedule expired shares for deletion!",
-      "shareExpired": "Failed to expire share",
-      "shareExtended": "Failed to extend share"
+      "pruneExpiredShares": "Nem sikerült ütemezni a lejárt megosztások törlését!",
+      "shareExpired": "Nem sikerült lejáratatni a megosztást",
+      "shareExtended": "Nem sikerült meghosszabbítani a megosztást"
     },
     "help": {
       "auth_provider": {
-        "title": "Auth provider information"
+        "title": "Hitelesítési szolgáltató információk"
       },
       "downloadLimit": {
-        "description": "You can set the download limit for any share by clicking the right-side number and typing in the new limit. Clear the box to remove the limit.",
-        "description2": "Changes will be saved automatically when you click outside the box.",
-        "title": "Download Limit Help"
+        "description": "Bármely megosztáshoz beállíthat letöltési korlátot, ha rákattint a jobb oldali számra, és beírja az új korlátot. Törölje a mező tartalmát a korlát eltávolításához.",
+        "description2": "A változtatások automatikusan mentésre kerülnek, amint a mezőn kívülre kattint.",
+        "title": "Letöltési korlát súgó"
       }
     },
     "invite": {
-      "message": "Message (optional)"
+      "message": "Üzenet (opcionális)"
     },
-    "loading": "Shares loading...",
-    "noShares": "You have no shares. Why not create one?",
+    "loading": "Megosztások betöltése...",
+    "noShares": "Nincsenek megosztásai. Miért ne hozna létre egyet?",
     "provider": {
-      "edit": "Edit",
-      "view": "View"
+      "edit": "Szerkesztés",
+      "view": "Megtekintés"
     },
     "reverse_invite": {
-      "description": "Request files from a contact by entering their details below. They'll receive a link that grants one-time access to upload files directly to you. Once they've uploaded the files, you'll receive an email notification."
+      "description": "Kérvényezzen fájlokat egy kontaktjától az alábbi adatok megadásával. Egy linket kapnak, amely egyszeri hozzáférést biztosít a fájlok közvetlen feltöltéséhez. Feltöltést követően e-mail értesítést kap róla."
     },
-    "settingsSavedSuccessfully": "Settings saved successfully",
+    "settingsSavedSuccessfully": "Beállítások sikeresen mentve",
     "share": {
-      "password": "Share password",
-      "password_confirm": "Confirm share password",
-      "password_protect_description": "Create a password for your share. Anyone downloading this share will need this password to access it. Please note: After creation, this password will be encrypted and we cannot retrieve it for you. Make sure to save it in a secure location.",
-      "remove_password": "Remove Password"
+      "password": "Megosztás jelszava",
+      "password_confirm": "Megosztás jelszavának megerősítése",
+      "password_protect_description": "Hozzon létre jelszót a megosztásához. Bárkinek aki letöltené ezt a megosztást, annak szüksége lesz a letöltéshez erre a jelszóra. Kérjük, vegye figyelembe: Létrehozás után ez a jelszó titkosításra kerül, és nem tudjuk Önnek visszaállítani. Győződjön meg róla, hogy biztonságos helyen tárolja.",
+      "remove_password": "Jelszó eltávolítása"
     },
     "success": {
-      "pruneExpiredShares": "Expired shares have been scheduled for deletion and will be processed in the background.",
-      "shareExpired": "Share expired",
-      "shareExtended": "Share extended"
+      "pruneExpiredShares": "A lejárt megosztások törlése ütemezve lett, és a háttérben feldolgozásra kerülnek.",
+      "shareExpired": "Megosztás lejárt",
+      "shareExtended": "Megosztás meghosszabbítva"
     },
     "system": {
-      "allow_chunked_uploads": "Allow chunked upload mode",
-      "allow_chunked_uploads_description": "Chunked upload mode breaks files into smaller segments that are transferred sequentially. While slightly slower than direct upload for smaller files, this method provides greater stability and reliability when transferring large files. Chunked uploads support progress tracking and allow users to manually pause and resume transfers, making it ideal for files over 100MB or when using unstable network connections.",
-      "allow_direct_uploads": "Allow direct upload mode",
-      "allow_direct_uploads_description": "Direct upload mode transmits files in a single, uninterrupted request. While this method offers the fastest transfer speeds for most files, extremely large files may cause stability issues or timeouts. For optimal performance with files exceeding 100MB, chunked uploads may be a better option.",
-      "allow_reverse_shares": "Allow reverse shares",
-      "allow_reverse_shares_description": "Determines whether your registered users should have permission to send reverse share requests. These requests provide external individuals with a one-time upload pass, allowing them to deliver files directly to the registered user who initiated the request.\n\n\n\n\n",
-      "application_name": "Application Name",
-      "application_name_description": "Customise the displayed name of your application that appears in title bars, dialogs, and other interface elements. This helps maintain consistent branding throughout the user experience.",
-      "application_url": "Application URL",
-      "application_url_description": "The base URL of your application. This is used to create clickable links in notification emails, allowing users to navigate directly back to specific pages within the application.",
-      "auth": "Auth",
-      "auth_provider_config_base_url": "Base URL",
-      "auth_provider_config_client_id": "Client ID",
-      "auth_provider_config_client_secret": "Client Secret",
-      "auth_provider_config_tenant": "Tenant ID",
-      "auth_provider_enabled": "Enable",
-      "auth_provider_name": "Provider Name",
-      "auth_provider_type": "Provider type",
-      "auth_providers": "Auth providers",
-      "auth_providers_description": "Configure auth providers via which you wish your users to be able to authenticate.",
-      "auth_providers_description_localhost": "External authentication configuration is unavailable on localhost. OAuth providers require a fully qualified domain name (FQDN) to properly function. Please access Erugo through a registered domain to configure these settings.",
-      "callback_url": "Callback URL",
-      "callback_url_description": "Use the callback URL provided in your identity provider configuration.",
-      "chunked": "Chunked",
-      "chunked_uploads_disabled_but_default": "You have set the default upload mode to chunked, but chunked uploads are disabled!",
-      "clean_files_after": "Clean Files After",
-      "clean_files_after_description": "How long after a share expires before files are deleted from the system.",
-      "days": "Days",
-      "default_expiry_time": "Default Expiry Time",
-      "default_language": "Default Language",
-      "default_language_description": "Set the primary language that will be used throughout the application interface for all users by default. Individual users can override this setting with their personal preferences.",
-      "default_upload_mode": "Default upload mode",
-      "default_upload_mode_description": "Set which mode should be selected by default. Users can change this when creating a share if you have more than one method enabled.",
-      "delete_auth_provider": "Delete this provider",
-      "direct": "Direct",
-      "direct_uploads_disabled_but_default": "You have set the default upload mode to direct, but direct uploads are disabled!",
-      "disabled": "Disabled",
-      "emails": "Notifications",
-      "enable_share_deleted_emails": "Enable Share Deleted Emails",
-      "enable_share_deletion_warning_emails": "Enable Share Deletion Warning Emails",
-      "enable_share_downloaded_emails": "Enable Share Downloaded Emails",
-      "enable_share_expired_warning_emails": "Enable Share Expired Emails",
-      "enable_share_expiry_warning_emails": "Enable Share Expiry Warning Emails",
-      "enabled": "Enabled",
-      "general": "General",
+      "allow_chunked_uploads": "Darabolt feltöltési mód engedélyezése",
+      "allow_chunked_uploads_description": "A darabolt feltöltési mód kisebb szegmensekre bontja a fájlokat, amelyeket egymás után továbbít. Bár kisebb fájlok esetén kissé lassabb, mint a közvetlen feltöltés, ez a módszer nagyobb stabilitást és megbízhatóságot biztosít nagy fájlok átvitelekor. A darabolt feltöltések támogatják a haladás pontos nyomonkövetését, és lehetővé teszik a felhasználók számára a szüneteltetést és a letöltés folytatását, így ideálisak 100 MB feletti fájlokhoz vagy instabil hálózati kapcsolatok esetén.",
+      "allow_direct_uploads": "Közvetlen feltöltési mód engedélyezése",
+      "allow_direct_uploads_description": "A közvetlen feltöltési mód egyetlen, megszakítás nélküli kérésben továbbítja a fájlokat. Bár ez a módszer a leggyorsabb átviteli sebességet kínálja a legtöbb fájlhoz, rendkívül nagy fájlok stabilitási problémákat vagy időtúllépéseket okozhatnak. Az optimális teljesítmény érdekében 100 MB feletti fájloknál a darabolt feltöltések jobb megoldást jelenthetnek.",
+      "allow_reverse_shares": "Fordított megosztások engedélyezése",
+      "allow_reverse_shares_description": "Meghatározza, hogy a regisztrált felhasználók jogosultak-e visszafordított megosztási kéréseket küldeni. Ezek a kérések egyszeri feltöltési hozzáférést biztosítanak külső személyeknek, lehetővé téve számukra, hogy közvetlenül a kérést kezdeményező regisztrált felhasználónak juttassanak el fájlokat.\n\n\n\n\n",
+      "application_name": "Alkalmazás neve",
+      "application_name_description": "Testreszabhatja az alkalmazás megjelenített nevét, amely a címsorokban, párbeszédpaneleken és egyéb felületi elemeken jelenik meg. Ez segít fenntartani a következetes arculatot a felhasználói élmény során.",
+      "application_url": "Alkalmazás URL",
+      "application_url_description": "Az alkalmazás alap URL-je. Ez a kattintható linkek létrehozására szolgál az értesítő e-mailekben, lehetővé téve a felhasználók számára, hogy közvetlenül az alkalmazás adott oldalaira navigáljanak.",
+      "auth": "Hitelesítés",
+      "auth_provider_config_base_url": "Alap URL",
+      "auth_provider_config_client_id": "Ügyfélazonosító (Client ID)",
+      "auth_provider_config_client_secret": "Ügyfélkulcs (Client Secret)",
+      "auth_provider_config_tenant": "Bérlőazonosító (Tenant ID)",
+      "auth_provider_enabled": "Engedélyezés",
+      "auth_provider_name": "Szolgáltató neve",
+      "auth_provider_type": "Szolgáltató típusa",
+      "auth_providers": "Hitelesítési szolgáltatók",
+      "auth_providers_description": "Konfigurálja azokat a hitelesítési szolgáltatókat, amelyeken keresztül engedélyezni szeretné a felhasználók számára a hitelesítést.",
+      "auth_providers_description_localhost": "Külső hitelesítésők konfigurációja nem érhető el localhost-on. Az OAuth szolgáltatókhoz teljes domain név (FQDN) szükséges. Kérjük, regisztrált tartományon keresztül érje el az Erugo-t ezen beállítások konfigurálásához.",
+      "callback_url": "Visszahívási URL (Callback URL)",
+      "callback_url_description": "Használja az identitásszolgáltató konfigurációjában megadott visszahívási URL-t.",
+      "chunked": "Darabolt",
+      "chunked_uploads_disabled_but_default": "A darabolt feltöltési módot állította be alapértelmezettként, de a darabolt feltöltések le vannak tiltva!",
+      "clean_files_after": "Fájlok törlése ennyi idő után:",
+      "clean_files_after_description": "Mennyi idővel egy megosztás lejáratát követően törlődjenek a fájlok a rendszerből.",
+      "days": "Napok",
+      "default_expiry_time": "Alapértelmezett lejárati idő",
+      "default_language": "Alapértelmezett nyelv",
+      "default_language_description": "Állítsa be az elsődleges nyelvet, melyet az alkalmazás felületén alapértelmezetten minden felhasználó használni fog. Az egyéni felhasználók felülírhatják ezt a beállítást a saját beálításukkal.",
+      "default_upload_mode": "Alapértelmezett feltöltési mód",
+      "default_upload_mode_description": "Állítsa be, melyik mód legyen alapértelmezetten kiválasztva. A felhasználók megváltoztathatják ezt a megosztás létrehozásakor, ha több módszer is engedélyezve van.",
+      "delete_auth_provider": "Szolgáltató törlése",
+      "direct": "Közvetlen",
+      "direct_uploads_disabled_but_default": "A közvetlen feltöltési módot állította be alapértelmezettként, de a közvetlen feltöltések le vannak tiltva!",
+      "disabled": "Letiltva",
+      "emails": "Értesítések",
+      "enable_share_deleted_emails": "Megosztás törléséről szóló e-mailek engedélyezése",
+      "enable_share_deletion_warning_emails": "Megosztás törlésére figyelmeztető e-mailek engedélyezése",
+      "enable_share_downloaded_emails": "Megosztás letöltéséről szóló e-mailek engedélyezése",
+      "enable_share_expired_warning_emails": "Megosztás lejáratáról szóló figyelmeztető e-mailek engedélyezése",
+      "enable_share_expiry_warning_emails": "Megosztás lejáratára figyelmeztető e-mailek engedélyezése",
+      "enabled": "Engedélyezve",
+      "general": "Általános",
       "languages": {
-        "dutch": "Dutch",
-        "english": "English",
-        "french": "French",
-        "german": "German",
-        "italian": "Italian",
-        "portuguese": "Portuguese"
+        "dutch": "Holland",
+        "english": "Angol",
+        "french": "Francia",
+        "german": "Német",
+        "italian": "Olasz",
+        "portuguese": "Portugál"
       },
-      "login_message": "Login Message",
-      "login_message_description": "Add a custom message or announcement that will be displayed on the login screen. This can be used for welcome messages, important notifications, or temporary announcements.",
-      "max_expiry_time": "Maximum Expiry Time",
-      "max_expiry_time_description": "Set the maximum number of days a user can select for share expiry upon creation. Empty the value to allow unlimited expiry time.",
-      "max_share_size": "Maximum Share Size",
-      "max_share_size_description": "Set the maximum size of a share that a user can create. The value is in megabytes or gigabytes.",
-      "provider_trust_warning": "Warning: Auth Provider Trust",
-      "provider_trust_warning_description": "Ensure you only configure and enable auth providers that you trust. Authentication providers have elevated access privileges to your application and user data. Adding untrusted or compromised providers could lead to unauthorised access, data breaches, or account takeovers.",
-      "reverse_shares": "Reverse Shares",
-      "select_auth_provider": "Select an auth provider",
-      "share_deleted_emails": "\"Share deleted\" emails",
-      "share_deleted_emails_description": "Notify users when their shares have been permanently deleted from the system. This confirms the completion of the content lifecycle for security and compliance purposes.",
-      "share_deletion_warning_emails": "\"Share deletion\" warning emails",
+      "login_message": "Bejelentkezési üzenet",
+      "login_message_description": "Adjon hozzá egy egyéni üzenetet vagy közleményt, amely megjelenik a bejelentkezési képernyőn. Ez felhasználható üdvözlő üzenetekhez, fontos értesítésekhez vagy ideiglenes közleményekhez.",
+      "max_expiry_time": "Maximális lejárati idő",
+      "max_expiry_time_description": "Állítsa be a maximális napok számát, amelyet egy felhasználó választhat a megosztás lejáratához létrehozáskor. Hagyja üresen az értéket a korlátlan lejárati idő engedélyezéséhez.",
+      "max_share_size": "Maximális megosztási méret",
+      "max_share_size_description": "Állítsa be a maximális megosztási méretet, amelyet egy felhasználó létrehozhat. Az érték megabájtban vagy gigabájtban van megadva",
+      "provider_trust_warning": "Figyelmeztetés: Hitelesítési szolgáltató megbízhatósága",
+      "provider_trust_warning_description": "Győződjön meg róla, hogy csak olyan hitelesítési szolgáltatókat konfigurál és engedélyez, amelyekben megbízik. A hitelesítési szolgáltatók emelt szintű hozzáférési jogosultságokkal rendelkeznek az alkalmazáshoz és a felhasználói adatokhoz. Nem megbízható vagy kompromittált szolgáltatók hozzáadása jogosulatlan hozzáféréshez, adatvédelmi incidensekhez vagy fiókátvételekhez vezethet.",
+      "reverse_shares": "Fordított megosztások",
+      "select_auth_provider": "Válasszon hitelesítési szolgáltatót",
+      "share_deleted_emails": "\"Megosztás törölve\" e-mailek",
+      "share_deleted_emails_description": "Értesítse a felhasználókat, amikor megosztásaik véglegesen törlődtek a rendszerből. Ez megerősíti a tartalom életciklusának befejezését biztonsági és megfelelőségi célokból.",
+      "share_deletion_warning_emails": "\"Megosztás törlése\" warning emails",
       "share_deletion_warning_emails_description": "Provide advance notice to users when their expired shares are scheduled for permanent deletion. This gives them a final opportunity to save important content.",
-      "share_downloaded_emails": "\"Share downloaded\" emails",
-      "share_downloaded_emails_description": "Notify share owners when their shared content is downloaded for the first time. This helps users track when recipients access their shared files.",
-      "share_expired_warning_emails": "\"Share expired\" warning emails",
-      "share_expired_warning_emails_description": "Alert users when their shares have reached their expiration date and are no longer accessible to recipients. Helps users maintain awareness of their sharing status.",
-      "share_expiry_warning_emails": "\"Share expiry\" warning emails",
-      "share_expiry_warning_emails_description": "Send proactive notifications to users when their shares are approaching expiration. This gives them the opportunity to extend access if needed.",
-      "shares": "Shares",
-      "show_deleted_shares": "Show deleted shares",
-      "show_language_selector": "Show Language Selector",
-      "show_language_selector_description": "Toggle the visibility of the language selection dropdown in the top right corner of the application. When enabled, users can quickly switch between available interface languages.",
+      "share_downloaded_emails": "\"Megosztás letöltve\" e-mailek",
+      "share_downloaded_emails_description": "Értesítse a megosztás tulajdonosait, amikor megosztott tartalmukat először töltik le. Ez segít a felhasználóknak nyomon követni, hogy a címzettek mikor férnek hozzá megosztott fájljaikhoz.",
+      "share_expired_warning_emails": "\"Megosztás lejárt\" figyelmeztető e-mailek",
+      "share_expired_warning_emails_description": "Előzetes értesítést küld a felhasználóknak, amikor lejárt megosztásaik végleges törlésre kerülnek. Ez utolsó lehetőséget ad nekik fontos tartalom mentésére.",
+      "share_expiry_warning_emails": "\"Megosztás lejárata\" figyelmeztető e-mailek",
+      "share_expiry_warning_emails_description": "Proaktív értesítéseket küld a felhasználóknak, amikor megosztásaik közel állnak a lejáratához. Ez lehetőséget ad nekik a hozzáférés meghosszabbítására, ha szükséges.",
+      "shares": "Megosztások",
+      "show_deleted_shares": "Törölt megosztások megjelenítése",
+      "show_language_selector": "Nyelvválasztó megjelenítése",
+      "show_language_selector_description": "Be- és kikapcsolja a nyelvválasztó legördülő menü láthatóságát az alkalmazás jobb felső sarkában. Ha engedélyezve van, a felhasználók gyorsan válthatnak a rendelkezésre álló felületi nyelvek között.",
       "smtp": "SMTP",
-      "smtp_host": "SMTP Host",
-      "smtp_host_description": "The server address for your outgoing email service. This is used to send notifications and other system emails to users.",
-      "smtp_password": "SMTP Password",
-      "smtp_password_description": "The password used to authenticate with your SMTP server. This credential allows your app to send emails through your email service provider.",
+      "smtp_host": "SMTP Hoszt",
+      "smtp_host_description": "A kimenő e-mail szolgáltatás szervercíme. Ezt értesítések és egyéb rendszerüzenetek küldésére használják a felhasználóknak.",
+      "smtp_password": "SMTP jelszó",
+      "smtp_password_description": "Az SMTP szerverrel való hitelesítéshez használt jelszó. Ez a hitelesítő adat lehetővé teszi az alkalmazás számára, hogy e-maileket küldjön az e-mail szolgáltatóján keresztül.",
       "smtp_port": "SMTP Port",
       "smtp_port_description": "The port number used to connect to your SMTP server. Common ports include 25 (standard), 465 (SSL), and 587 (TLS).",
-      "smtp_sender_address": "SMTP Sender Address",
-      "smtp_sender_address_description": "The email address that will be used as the sender for all system emails. This address should be valid and properly configured with your SMTP service.",
-      "smtp_sender_name": "SMTP Sender Name",
-      "smtp_sender_name_description": "The display name that will appear as the sender of system emails. Users will see this name in their email client (e.g. \"Your App Name\" or \"Your App Support\").",
-      "smtp_username": "SMTP Username",
-      "smtp_username_description": "The username required to authenticate with your SMTP server. This is typically the email address or account name associated with your email service.",
-      "upload_modes": "Upload modes",
-      "your_auth_providers": "Your Auth Providers"
+      "smtp_sender_address": "SMTP feladó címe",
+      "smtp_sender_address_description": "Az e-mail cím, amelyet az összes rendszerüzenet feladójaként fognak használni. Ennek az e-mail címnek érvényesnek és megfelelően konfiguráltnak kell lennie az SMTP szolgáltatásához.",
+      "smtp_sender_name": "SMTP feladó neve",
+      "smtp_sender_name_description": "A megjelenített név, amely a rendszerüzenetek feladójaként fog megjelenni. A felhasználók ezt a nevet fogják látni e-mail kliensükben (pl. \"Az alkalmazás neve\" vagy \"Az alkalmazás támogatása\").",
+      "smtp_username": "SMTP felhasználónév",
+      "smtp_username_description": "Az SMTP szerverrel való hitelesítéshez szükséges felhasználónév. Ez jellemzően az e-mail cím vagy fióknév, amely az e-mail szolgáltatásához kapcsolódik.",
+      "upload_modes": "Feltöltési módok",
+      "your_auth_providers": "Az Ön hitelesítési szolgáltatói"
     },
-    "system_auth_provider_info_link": "About {name}",
+    "system_auth_provider_info_link": "Erről: {name}",
     "table": {
-      "actions": "Actions",
-      "dates": "Dates",
-      "downloads": "Downloads",
-      "files": "Files",
-      "name": "Name"
+      "actions": "Műveletek",
+      "dates": "Dátumok",
+      "downloads": "Letöltések",
+      "files": "Fájlok",
+      "name": "Név"
     },
     "title": {
-      "branding": "Branding & UI",
-      "emailTemplates": "Email templates",
-      "linked_accounts": "Linked Accounts",
-      "manage": "Manage",
-      "myProfile": "My Account",
-      "myShares": "My Shares",
-      "reverse_invite": "Create reverse share request",
+      "branding": "Arculat/branding és Felhasználói felület",
+      "emailTemplates": "E-mail sablonok",
+      "linked_accounts": "Összekapcsolt fiókok",
+      "manage": "Kezelés",
+      "myProfile": "Fiókom",
+      "myShares": "Megosztásaim",
+      "reverse_invite": "Fordított megosztási kérés létrehozása",
       "share": {
-        "password_protect": "Password protect share"
+        "password_protect": "Megosztás jelszóval védetté tétele"
       },
-      "system": "System settings",
-      "users": "Users",
-      "users.edit": "Edit {name}"
+      "system": "Rendszerbeállítások",
+      "users": "Felhasználók",
+      "users.edit": "{name} szerkesztése"
     },
     "users": {
-      "account": "Account Type",
-      "actions": "Actions",
-      "active": "Active",
-      "add": "Add User",
-      "add_user_description": "We'll send an email to the user with a link to set their&nbsp;password.",
+      "account": "Fiók típusa",
+      "actions": "Műveletek",
+      "active": "Aktív",
+      "add": "Felhasználó hozzáadása",
+      "add_user_description": "E-mailt küldünk a felhasználónak egy linkkel a &nbsp;jelszava beállításához.",
       "admin": "Admin",
-      "admin_help_text": "Make the user an admin.",
-      "admin_help_text_2": "User will have the same privileges as you.",
-      "cannot_delete_yourself": "You cannot delete yourself",
-      "close": "Cancel",
-      "created": "Created",
-      "current_password": "Current Password",
-      "current_password_required": "Current Password is required",
-      "delete": "Delete",
-      "edit": "Edit",
-      "edit_my_profile": "Edit My Profile",
-      "email": "Email",
-      "failed_to_create_user": "Failed to create user",
-      "failed_to_delete_user": "Failed to delete user",
-      "failed_to_update_user": "Failed to update user",
-      "id": "ID",
-      "leave_blank_to_keep_same_password": "Leave blank to keep same password.",
-      "link_provider_confirm": "Really link your account to this provider?",
-      "linked": "Account Linked",
-      "name": "Name",
-      "not_linked": "Account Not Linked",
-      "password": "New Password",
-      "password_confirmation": "Confirm New Password",
-      "password_confirmation_mismatch": "Password and Password Confirmation must match",
-      "password_min_length": "Password must be at least {length} characters long.",
-      "password_required": "Password is required",
-      "password_update_failed": "Password update failed",
-      "password_updated": "Password updated",
-      "profile_errors": "Please check your input",
-      "profile_update_failed": "Failed to update your profile",
-      "profile_updated": "Your profile was updated",
-      "provider_unlink_failed": "Failed to unlink the provider from your account",
-      "provider_unlinked": "The provider has been unlinked from your account",
-      "save_changes": "Save Changes",
-      "send_invite": "Send Request",
-      "unlink_provider_confirm": "Really unlink your account from this provider?",
-      "update_password": "Update Password",
-      "user": "User",
-      "user_created_successfully": "User created successfully",
-      "user_deleted_successfully": "User was deleted successfully",
-      "user_updated_successfully": "User updated successfully",
-      "you": "You"
+      "admin_help_text": "Tegye a felhasználót admininsztrátorrá.",
+      "admin_help_text_2": "A felhasználó ugyanazokkal a jogosultságokkal fog rendelkezni, mint Ön.",
+      "cannot_delete_yourself": "Nem törölheti saját magát",
+      "close": "Mégsem",
+      "created": "Létrehozva",
+      "current_password": "Jelenlegi jelszó",
+      "current_password_required": "Jelenlegi jelszó szükséges",
+      "delete": "Törlés",
+      "edit": "Szerkesztés",
+      "edit_my_profile": "Profilom szerkesztése",
+      "email": "E-mail",
+      "failed_to_create_user": "Nem sikerült létrehozni a felhasználót",
+      "failed_to_delete_user": "Nem sikerült törölni a felhasználót",
+      "failed_to_update_user": "Nem sikerült frissíteni a felhasználót",
+      "id": "ID (Azonosító)",
+      "leave_blank_to_keep_same_password": "Hagyja üresen, ha a jelszót változatlanul kívánja hagyni.",
+      "link_provider_confirm": "Valóban összekapcsolja fiókját ezzel a szolgáltatóval?",
+      "linked": "Fiók összekapcsolva",
+      "name": "Név",
+      "not_linked": "Fiók nincs összekapcsolva",
+      "password": "Új jelszó",
+      "password_confirmation": "Új jelszó megerősítése",
+      "password_confirmation_mismatch": "A jelszó és a jelszó megerősítése nem egyezik",
+      "password_min_length": "A jelszónak legalább {length} karakter hosszúnak kell lennie.",
+      "password_required": "Jelszó szükséges",
+      "password_update_failed": "Jelszó frissítése sikertelen",
+      "password_updated": "Jelszó frissítve",
+      "profile_errors": "Kérjük, ellenőrizze az adatokat",
+      "profile_update_failed": "Nem sikerült frissíteni a profilját",
+      "profile_updated": "Profilja frissítve",
+      "provider_unlink_failed": "Nem sikerült leválasztani a szolgáltatót a fiókjáról",
+      "provider_unlinked": "A szolgáltató leválasztásra került a fiókjáról",
+      "save_changes": "Változtatások mentése",
+      "send_invite": "Kérés küldése",
+      "unlink_provider_confirm": "Valóban leválasztja fiókját erről a szolgáltatóról?",
+      "update_password": "Jelszó frissítése",
+      "user": "Felhasználó",
+      "user_created_successfully": "Felhasználó sikeresen létrehozva",
+      "user_deleted_successfully": "Felhasználó sikeresen törölve",
+      "user_updated_successfully": "Felhasználó sikeresen frissítve",
+      "you": "Ön"
     }
   },
   "setup": {
-    "create_admin_account": "Create Admin Account",
+    "create_admin_account": "Admin fiók létrehozása",
     "first_user": {
-      "email": "Email",
-      "name": "Full Name",
-      "password": "Password",
-      "password_confirmation": "Confirm Password"
+      "email": "E-mail",
+      "name": "Teljes név",
+      "password": "Jelszó",
+      "password_confirmation": "Jelszó megerősítése"
     },
-    "intro": "Thank you for installing Erugo! Create your first admin user to get started."
+    "intro": "Köszönjük, hogy telepítette az Erugo-t! Hozza létre első admin felhasználóját a kezdéshez."
   },
   "share": {
     "button": {
-      "expireNow": "Expire Now",
-      "extend": "Extend"
+      "expireNow": "Lejárat most",
+      "extend": "Meghosszabbítás"
     },
     "contains": {
-      "count": "{value, plural, one {Contains: # file} other {Contains: {value} files}}"
+      "count": "{value, plural, one {Tartalom: # fájl} other {Tartalom: {value} fájl}}"
     },
-    "created": "Created",
-    "data_loading": "Loading...",
-    "deleted": "Deleted",
-    "deletes": "Deletes",
+    "created": "Létrehozva",
+    "data_loading": "Betöltés...",
+    "deleted": "Törölve",
+    "deletes": "Törlések",
     "download": {
-      "invalid_password": "Share password is invalid",
-      "password_required": "You must enter the password to download this share.",
-      "password_required_short": "Enter password"
+      "invalid_password": "A megosztási jelszó érvénytelen",
+      "password_required": "A megosztás letöltéséhez meg kell adnia a jelszót.",
+      "password_required_short": "Jelszó megadása"
     },
-    "download_limit_reached": "Download Limit Reached",
-    "download_limit_reached.message": "The share you are trying to download has reached its download limit. Please ask the share creator to increase the download limit.",
-    "expired": "Share Expired",
-    "expired.message": "The share you are trying to download has expired. Please ask the share creator to create a new share.",
-    "expires": "Expires",
-    "expires.in": "Expires in {days} {days, plural, one {day} other {days}}, {hours} {hours, plural, one {hour} other {hours}}, {minutes} {minutes, plural, one {minute} other {minutes}}",
+    "download_limit_reached": "Letöltési limit elérve",
+    "download_limit_reached.message": "A letölteni kívánt megosztás elérte a letöltési limitet. Kérjük, kérje meg a megosztás készítőjét, hogy növelje a letöltési limitet.",
+    "expired": "Megosztás lejárt",
+    "expired.message": "A letölteni kívánt megosztás lejárt. Kérjük, kérje meg a megosztás készítőjét, hogy hozzon létre egy új megosztást.",
+    "expires": "Lejár",
+    "expires.in": "Lejár {days} {days, plural, one {nap} other {napok}}, {hours} {hours, plural, one {óra} other {óra}}, {minutes} {minutes, plural, one {perc} other {perc}}",
     "files": {
-      "count": "{value, plural, one {# file} other {# files}}",
-      "including": "including:"
+      "count": "{value, plural, one {# fájl} other {# fájl}}",
+      "including": "beleértve:"
     },
-    "not_found": "The share you are looking for was not found. You may need to log in to see it.",
-    "passwordNotProtected": "Open",
-    "passwordProtected": "Password protected"
+    "not_found": "A keresett megosztás nem található. Lehet, hogy be kell jelentkeznie a megtekintéséhez.",
+    "passwordNotProtected": "Nyílt megosztás",
+    "passwordProtected": "Jelszóval védett"
   },
-  "total_size": "Total Size",
+  "total_size": "Teljes méret",
   "upload": {
-    "files": "{value, plural, one {Upload # file} other {Upload # files}}",
-    "upload_mode_not_supported": "No valid upload mode is selected! We're not sure what to suggest because this shouldn't be possible."
+    "files": "{value, plural, one {# Fájl feltöltése} other {# Fájlok feltöltése}}",
+    "upload_mode_not_supported": "Nincs érvényes feltöltési mód kiválasztva! Nem tudjuk, mit javasoljunk, mert ez elvileg nem lehetséges."
   },
   "uploader": {
     "current_mode": {
-      "chunked": "Chunked upload mode",
-      "direct": "Direct upload mode"
+      "chunked": "Darabolt feltöltési mód",
+      "direct": "Közvetlen feltöltési mód"
     },
-    "expiry_label": "Share will expire in {value} {unit}  (change)",
+    "expiry_label": "A megosztás lejár: {value} {unit}  (módosítás)",
     "expiry_max_value": "Max: {value}",
-    "expiry_too_long": "The expiry time you entered exceeds the maximum limit. We've automatically adjusted it to the longest period allowed.",
+    "expiry_too_long": "A megadott lejárati idő túllépi a maximális korlátot. Automatikusan a leghosszabb engedélyezett időszakra állítottuk be.",
     "expiry_unit": {
-      "days": "Day(s)",
-      "months": "Month(s)",
-      "weeks": "Week(s)",
-      "years": "Year(s)"
+      "days": "Nap(ok)",
+      "months": "Hónap(ok)",
+      "weeks": "Hét(hetek)",
+      "years": "Év(ek)"
     },
-    "guest_share_created": "Thank you! Your files have been sent successfully. In a few moments you will be logged out.",
-    "password_confirmation_required": "Password confirmation required",
-    "password_mismatch": "Passwords don't match",
-    "password_required": "Password is required to protect share",
-    "upload_mode_swapped": "Upload mode changed to {value}"
+    "guest_share_created": "Köszönjük! Fájljait sikeresen elküldtük. Néhány pillanat múlva kijelentkezik.",
+    "password_confirmation_required": "Jelszó megerősítése szükséges",
+    "password_mismatch": "A jelszavak nem egyeznek",
+    "password_required": "Jelszó szükséges a megosztás védelméhez",
+    "upload_mode_swapped": "Feltöltési mód megváltoztatva erre: {value}"
   },
   "uploading": {
-    "files": "{value, plural, one {Uploading # file} other {Uploading # files}}"
+    "files": "{value, plural, one {# Fájl feltöltése folyamatban} other {# Fájl feltöltése folyamatban}}"
   }
 }
